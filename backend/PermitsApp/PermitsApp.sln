@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BEBA9364-2269-4CCE-B7DB-971C5644687F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FC96A6BF-53A8-4CDE-A162-87FA51FA2B01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Query", "Query", "{0355E577-3BED-44FA-906A-F10DE4AE6EE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Command.Api", "src\Command\PermitsApp.Command.Api\PermitsApp.Command.Api.csproj", "{6905AD0E-658E-4274-AF56-F0910F7FE2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Command.Application", "src\Command\PermitsApp.Command.Application\PermitsApp.Command.Application.csproj", "{37007054-158A-46B8-B8E9-4917138F66EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Command.Infrastructure", "src\Command\PermitsApp.Command.Infrastructure\PermitsApp.Command.Infrastructure.csproj", "{39D3C7F1-61C1-4277-9819-9CEAE70D205F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Command.Domain", "src\Command\PermitsApp.Command.Domain\PermitsApp.Command.Domain.csproj", "{04ED9436-AD92-4E41-87A8-AE5332860F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Query.Api", "src\Query\PermitsApp.Query.Api\PermitsApp.Query.Api.csproj", "{4B462488-503E-4269-95A4-CFCE70880B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Query.Infrastructure", "src\Query\PermitsApp.Query.Infrastructure\PermitsApp.Query.Infrastructure.csproj", "{9E52ABAA-293F-4010-BD21-37171821DD39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Query.Domain", "src\Query\PermitsApp.Query.Domain\PermitsApp.Query.Domain.csproj", "{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermitsApp.Query.Application", "src\Query\PermitsApp.Query.Application\PermitsApp.Query.Application.csproj", "{55B1F671-8247-4D79-BEE4-79A813E7A952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A15104C-D59C-4F73-AD60-3F7A0694E227}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6905AD0E-658E-4274-AF56-F0910F7FE2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6905AD0E-658E-4274-AF56-F0910F7FE2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6905AD0E-658E-4274-AF56-F0910F7FE2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6905AD0E-658E-4274-AF56-F0910F7FE2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37007054-158A-46B8-B8E9-4917138F66EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37007054-158A-46B8-B8E9-4917138F66EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37007054-158A-46B8-B8E9-4917138F66EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37007054-158A-46B8-B8E9-4917138F66EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D3C7F1-61C1-4277-9819-9CEAE70D205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D3C7F1-61C1-4277-9819-9CEAE70D205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D3C7F1-61C1-4277-9819-9CEAE70D205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D3C7F1-61C1-4277-9819-9CEAE70D205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04ED9436-AD92-4E41-87A8-AE5332860F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04ED9436-AD92-4E41-87A8-AE5332860F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04ED9436-AD92-4E41-87A8-AE5332860F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04ED9436-AD92-4E41-87A8-AE5332860F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B462488-503E-4269-95A4-CFCE70880B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B462488-503E-4269-95A4-CFCE70880B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B462488-503E-4269-95A4-CFCE70880B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B462488-503E-4269-95A4-CFCE70880B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E52ABAA-293F-4010-BD21-37171821DD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E52ABAA-293F-4010-BD21-37171821DD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E52ABAA-293F-4010-BD21-37171821DD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E52ABAA-293F-4010-BD21-37171821DD39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B1F671-8247-4D79-BEE4-79A813E7A952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B1F671-8247-4D79-BEE4-79A813E7A952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B1F671-8247-4D79-BEE4-79A813E7A952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B1F671-8247-4D79-BEE4-79A813E7A952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0355E577-3BED-44FA-906A-F10DE4AE6EE0} = {BEBA9364-2269-4CCE-B7DB-971C5644687F}
+		{0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC} = {BEBA9364-2269-4CCE-B7DB-971C5644687F}
+		{6905AD0E-658E-4274-AF56-F0910F7FE2A6} = {0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC}
+		{37007054-158A-46B8-B8E9-4917138F66EA} = {0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC}
+		{39D3C7F1-61C1-4277-9819-9CEAE70D205F} = {0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC}
+		{04ED9436-AD92-4E41-87A8-AE5332860F70} = {0342F7E2-4FFC-4A20-9C5E-DBF7F2A605BC}
+		{4B462488-503E-4269-95A4-CFCE70880B51} = {0355E577-3BED-44FA-906A-F10DE4AE6EE0}
+		{9E52ABAA-293F-4010-BD21-37171821DD39} = {0355E577-3BED-44FA-906A-F10DE4AE6EE0}
+		{5E2DFBCB-B6FA-42C9-AF9A-1C1AA4030EEA} = {0355E577-3BED-44FA-906A-F10DE4AE6EE0}
+		{55B1F671-8247-4D79-BEE4-79A813E7A952} = {0355E577-3BED-44FA-906A-F10DE4AE6EE0}
+	EndGlobalSection
+EndGlobal
